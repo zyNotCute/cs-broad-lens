@@ -6,7 +6,7 @@ Afterwards, all your study notes can be placed here.
 1. Install hexo. (15 pts)
 > keywords: package manager, npm
 2. Write some posts and transform them into static webpages. (15 pts)
-> keywords: markdown, hexo commands
+> keywords: markdown, hexo 
 3. Use your favorite theme. (15 pts)
 > keywords: git
 4. Deploy it to your personal website. (15 pts)
