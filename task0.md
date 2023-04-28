@@ -1,4 +1,4 @@
-# Task 0
+# Task 0: Toolchains
 ## Outline
 In this task, we try to build a half-automated note management system, with the ability of automatically deploying itself to your personal website.  
 Afterwards, all your study notes can be placed here.

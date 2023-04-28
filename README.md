@@ -20,3 +20,5 @@ Some might say, building environments or writing configuration files for a speci
 All the tasks should be done in Linux. (If you are a Windows user, try WSL)
 ## Maintainance
 This repo will be updated at least once a week, usually on Sundays. Each time I will upload one task, leaving a whole week for you to finish.
+## Tasks
+- [Task 0: Toolchains](./task0.md)
