@@ -2,6 +2,10 @@
 ## Outline
 In this task, we try to build a half-automated note management system, with the ability of automatically deploying itself to your personal website.  
 Afterwards, all your study notes can be placed here.
+## Prerequisites & Resources
+[Markdown](https://www.markdownguide.org/basic-syntax/)
+[Git (Chapter 2 ~ 3)](https://git-scm.com/book/zh/v2)
+[Linux(Chapter 3 ~ 6)](https://101.lug.ustc.edu.cn/)
 ## Procedure & Criteria
 1. Install hexo. (15 pts)
 > keywords: package manager, npm
