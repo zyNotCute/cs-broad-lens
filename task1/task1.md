@@ -2,7 +2,7 @@
 
 ## Outline
 
-In this task, we try to explore how the Internet works. There are a few subtasks that needs you to write down your answer in a markdown file, while other subtasks requires programming. that is to say, you'd better create a GitHub repo.
+In this task, we try to explore how the Internet works. There are a few subtasks that need you to write down your answer in a markdown file, while other subtasks require programming. That is to say, you'd better create a GitHub repo.
 
 ## Prerequisites & Resources 
 
