@@ -1,0 +1,110 @@
+Return-Path: <01020187bc9d8498-f4d5d8c5-9633-4ff9-a8f7-b2e0020483be-000000@mail-hello.portswigger.net>
+X-Original-To: leslie_jiang@proton.me
+Delivered-To: Leslie_Jiang@proton.me
+Authentication-Results: mailin037.protonmail.ch; dkim=pass (Good 1024
+    bit rsa-sha256 signature) header.d=portswigger.net header.a=rsa-sha256;
+    dkim=pass (Good 1024 bit rsa-sha256 signature) header.d=amazonses.com
+    header.a=rsa-sha256
+Authentication-Results: mailin037.protonmail.ch; dmarc=none (p=none dis=none)
+ header.from=portswigger.net
+Authentication-Results: mailin037.protonmail.ch; spf=pass
+ smtp.mailfrom=mail-hello.portswigger.net
+Authentication-Results: mailin037.protonmail.ch; arc=none smtp.remote-ip=54.240.55.173
+Authentication-Results: mailin037.protonmail.ch; dkim=pass (1024-bit key)
+ header.d=portswigger.net header.i=@portswigger.net header.b="kkLVgXo5"; dkim=pass
+ (1024-bit key) header.d=amazonses.com header.i=@amazonses.com header.b="MpYhd2YY"
+Received: from a55-173.smtp-out.eu-west-1.amazonses.com
+ (a55-173.smtp-out.eu-west-1.amazonses.com [54.240.55.173]) (using TLSv1.2 with cipher
+ ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)) (No client certificate requested) by
+ mailin037.protonmail.ch (Postfix) with ESMTPS id 4Q5s4y2WySz9vNPs for
+ <leslie_jiang@proton.me>; Wed, 26 Apr 2023 08:10:58 +0000 (UTC)
+Dkim-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+ s=xyb4p6meycvwnenltt7yfrudiznakmig; d=portswigger.net; t=1682496652;
+ h=From:To:Reply-To:Subject:Content-Type:Message-ID:Date;
+ bh=FSwbhSWZZQksuMT6pVc+NxAmYC7i+R+I9wS4AP2Y0Yk=;
+ b=kkLVgXo5+2HJM/NVTwHJwkI15UZhAO1LiuM95aOhE+yDOTCszUoJ/8JKKxipqxoC
+ YjkatL85jWN8HDrrnpG/NklyIqL3bEhyOQ0crNTCjgdZCmO6ThG5zatkokckJ+xWv3y
+ 3cBjA20WHJTEp7Q63cddX/vIS5QoDUNYTc7YaE1U=
+Dkim-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+ s=shh3fegwg5fppqsuzphvschd53n6ihuv; d=amazonses.com; t=1682496652;
+ h=From:To:Reply-To:Subject:Content-Type:Message-ID:Date:Feedback-ID;
+ bh=FSwbhSWZZQksuMT6pVc+NxAmYC7i+R+I9wS4AP2Y0Yk=;
+ b=MpYhd2YYuVwKkDXiuxIqajfeZN4ByUx1wnQ7DCP4LQ54KsKkgpfM5msRBDIS4Yay
+ FlIUTjbHQi83w9mVMDZmhQbMDvkY78QIPKA62E5GDds6MwCpfQsbld+M/VS+EsBGEEv
+ Jc6vwzHSvbt1N5rZkNpATbis3yGdGKMPsrANyPoE=
+From: PortSwigger <hello@portswigger.net>
+To: leslie_jiang@proton.me
+Reply-To: PortSwigger <hello@portswigger.net>
+Subject: Get started with Burp Suite Community Edition
+Content-Type: text/html
+Message-Id: <01020187bc9d8498-f4d5d8c5-9633-4ff9-a8f7-b2e0020483be-000000@eu-west-1.amazonses.com>
+Date: Wed, 26 Apr 2023 08:10:52 +0000
+Feedback-Id: 1.eu-west-1.GnMzQBeSCfwLSjzZUCkPnxty7r2IeLHHkNSYKRTXqeE=:AmazonSES
+X-Ses-Outgoing: 2023.04.26-54.240.55.173
+X-Rspamd-Queue-Id: 4Q5s4y2WySz9vNPs
+X-Spamd-Result: default: False [-0.40 / 25.00]; BAYES_HAM(-3.00)[99.98%];
+ MISSING_MIME_VERSION(2.00)[]; CTYPE_MIXED_BOGUS(1.00)[];
+ R_DKIM_ALLOW(-0.20)[portswigger.net:s=xyb4p6meycvwnenltt7yfrudiznakmig,amazonses.com:s=shh3fegwg5fppqsuzphvschd53n6ihuv];
+ R_SPF_ALLOW(-0.20)[+ip4:54.240.0.0/18]; MIME_BASE64_TEXT(0.10)[];
+ MIME_GOOD(-0.10)[multipart/mixed,multipart/alternative,text/plain];
+ DKIM_TRACE(0.00)[portswigger.net:+,amazonses.com:+]; RCVD_COUNT_ZERO(0.00)[0];
+ MIME_TRACE(0.00)[0:+,1:+,2:+,3:~]; ASN(0.00)[asn:16509, ipnet:54.240.52.0/22,
+ country:US]; NEURAL_HAM(-0.00)[-0.997]; RCPT_COUNT_ONE(0.00)[1];
+ DMARC_NA(0.00)[portswigger.net]; REPLYTO_EQ_FROM(0.00)[]; ARC_NA(0.00)[];
+ FROM_NEQ_ENVFROM(0.00)[hello@portswigger.net,01020187bc9d8498-f4d5d8c5-9633-4ff9-a8f7-b2e0020483be-000000@mail-hello.portswigger.net];
+ FROM_HAS_DN(0.00)[]; TO_DN_NONE(0.00)[]; TO_MATCH_ENVRCPT_ALL(0.00)[];
+ HAS_REPLYTO(0.00)[hello@portswigger.net]
+X-Rspamd-Server: cp5-mailin-037.plabs.ch
+X-Pm-Spam: 0yezJI6cihyJeYR3pi42biOpJJvbmsCIeI1msjN3X3blJp7IjBlNIIojwsQjLlITJ
+ otIj0C4MLJCQE9kUjItoUsMjSlBITR0fFJFUERDllPVE6iITMwCilR2XnYnVluX2im8ZOsniPJFU
+ CR6IJweyw3NXY0WiuAjODMyAc5NTyzYNOMDzykTMTO0QwiNShW1aZV2ftFmbSZ6IhzImjGFda91t
+ 0xWdVam99vc1lnNYcZnly8FZDMzIIwMDsiIMIJn1u9lbWYl1oiIjsWxYLZWl1RXYmczV19IniSwf
+ cJ3p6ICZjI0YhkNDzzkYMRmj5QTMmY2Uc5MDkjRNNJS9zJCLSY6IJpeyz19ccFGtwojICLzJ9yY2
+ 6SIZMwCivN2cmckVowIjsjQLIJnly9GcCd6IJTeyfEZUUFET6IyUyWw0BdLjTCJLUZEfMVES1TO9
+ 5FT0bjpIM4CwiwSXFSNR9NTFTVNRQdUFbpjICMw4wiXSNFRST9FJHFUTVRP9xZTk0zIXIpjb14CM
+ SXiwtJREWV9TQxUJ6ICRyWw0FdLjECJLSl0NJN1X0RF5I6RCuzAWM0VsLRkIUSf1FMVkfURSQUVi
+ tslOCMx4wiXSJEtRT9VWJxUQFRF9I6Riwy0WLFjdNJCLUSF1hFX0FURQU9lDQlFVVRP9xZTkbjpI
+ M4CxiwSXFVT9NfQ0Ek9QW9VUUhVR0XJxUiTktlsOM4CwiwSXFVS91PRUfEVVS1UBiU0RlOwsBdLj
+ 9X1f============
+X-Pm-Origin: external
+X-Pm-Transfer-Encryption: TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)
+X-Pm-Content-Encryption: on-delivery
+X-Pm-Spamscore: 0
+X-Pm-Spam-Action: inbox
+Mime-Version: 1.0
+
+
+-----BEGIN PGP MESSAGE-----
+Version: ProtonMail
+
+wV4DLWVPokUtFFISAQdAYGbW1r/Qcv0PgPr+p7DSmMkBvGnmYq3sfGQ83yPo
+NRwwbKmhJsPPJhuI5S3Ap70eyV6fdPljXlxXNMMMwXxLsinKrHANNyWEmyeL
+Kgrzub0T0sPuATrIfCRbTHwwqXgOXWBut2v9kzlxJSNbDksUvnFeje9yKjU5
+p1mq1C54+Mfr2OIzHhA+6WL7S/YS1cBLo0wdUvUhReriO0QHN+zpr0NiQPdO
+RLYDqdY75ovFHrUKhXnpbOvURSu3GkVzW7htf2RaIH/nICVq3zyWRuLKzQFf
+948TNID2M49zEm9SGPFydU1/4SV0plPuA4pLCimHZyeL0E40FlPQGrDcc0eW
+QH4b682TEur6bNkKyI3ML0god9SFLHU4tgUMRp2UWS5Vza5+q5bCgykbfCps
+1P3ytHF9OqepM7XJVOyADXwDVtfpfLsMNQMz76irhD3USGhgNFbXy9sPGcr8
+j+6Am1ihAwdFqPIye2nfhnnx18Rls60Cqdzt8dSdNC6cMFcb1PgzeqXKgFle
+hImRcNW7qpuUmJQveJFuO7O2JYGbWTf95yjLNnP8G4kWfkLDuiMOXhxLxQpc
+dI7rMTqYYF9v2OCtDOzSQr94osFQOcN94jAro+F15L3h01RDgeBZWgsBGLGS
+AT05A5hHOOyXoTdUGNdop6520zwC0nhGw6Bcpv8OIKEnvJTh5qnWfHTL4P2W
+3/4aTUs4B/4WyHF5MsJce6o5Pwr2nYfoVC89PjYuVlHXJH+c1gncLrhcLuIF
+HE8Kvq8JksK3JrBCTzwQaIUOKYdBh2HKapZVp/OqIZUH4/nhzDuaa5gYic+Y
+hSmjvIdWBPGzqpDLb8SSdxOsDz/wFUiAPS5Q1YGIDqc55MPVEb2fBQgn6wO+
+OXIDOSZDQZOfJTNg5gZxAvEQ2bWy20qncyF3Zvf0lG9WLjVP6U04qrf6j5Ck
+GopDC0rWV9bt1j+LXJLwrf49OvdZmI+NrcwpvyxGzEb8C2Y8+sWaESm6Wa8X
+7Fy52mYQi/c7X+3k2wem7rAxKfsRPOTlamvsu25g0orselHIdDhhPOLZ4ixD
+9j0NHcfSa989zWbsnDyWTEoE2iMnQtGg4PAbwhnY8NaIZ6y/KqOpSRr/x4UY
+AOiEYogc/m1d4Br8kmK+hx9VdtxniLXlBXa7UUMC9X6Mlhy7ZHG0eLFb2dtf
+WcdAzBikKYFwxFoFXxhl7DU4uSHlAFoog82AB7RXCt8l9pZ8kojwLD8wRuBw
+3bU1U2h6fPNDpfMRQldlDW+TTzxvvDYyD1dlbYLKkz+CZFcKU/jsoC5OroUF
+aapQqEn92+SQC1NYt3Yz8zpIMyhWn1jBW03T1ASmatZA0rEf9WBkNNzwyype
+PT/6gZSkHEsZjJQKN5zJg/KqhOG8SCnaXbdRHFd6i85PSVf+avM9i+bg18Nn
+/rzYuwpIrUZBMq2IITBf354Gx+bmHKITkgvv/w3VTLtZv7NXwtMQmi8afatn
+LyNMUg6sldO99gfR6obl7Ac7jMGfreufLk1v3yZpA9o/63E6LyRhYIv5887u
+mjPOJSSMUxFf3npUkRbRp8h6nza+gE3uHz74HIzhrppKCeY8mDLRaE1JmHoj
+YttSFvNqodWhJiNUUVCVb6Po7TQXgE1/KEUcFgsgYy2TxjIZJKnHAgks+8r+
+2JSvBvqEQEBWcvvf3xr8BKNBxIlK6V+LghQMUvZUEANBvfB5xg==
+=3+Sl
+-----END PGP MESSAGE-----

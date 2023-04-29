@@ -21,7 +21,7 @@ After reading these materials, you can ask yourself the following questions to g
 
 1. Install hexo. (15 pts)
 > keywords: package manager, npm
-2. Write some posts and transform them into static webpages. (15 pts)
+2. Write some posts and convert them into static webpages. (15 pts)
 > keywords: markdown, hexo 
 3. Use your favorite theme. (15 pts)
 > keywords: git
@@ -37,7 +37,7 @@ You'll get a new .md file in your _posts directory, named after the date today. 
 ```bash
 note find <string>
 ```
-You'll get a list of lines which contains the specific string from all your posts, with line numbers and date annotated by the side.
+You'll get a list of lines which contains the specific string from all your posts, with line numbers and dates annotated by the side.
 > keywords: bash
 6. Automate the deployment. (20 pts) (There are two ways, try either one.)
 - Deploy at startup.
