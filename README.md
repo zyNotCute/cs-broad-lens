@@ -17,7 +17,7 @@ Therefore, we ENCOURAGE:
 ### Face the real obstacles. Nothing is trivial.
 Some might say, building environments or writing configuration files for a specific tool is boring & time-wasting, needless to say fixing certain errors which only occur in your own OS. But I have to emphasize that only in this way can you gain the courage to face any unexpected situations and the capability to deal with completely unknown things.
 ## Environment
-All the tasks should be done in Linux. (If you are a Windows user, try WSL)
+All the tasks should be done on Linux. (If you are a Windows user, try WSL)
 ## Maintainance
 This repo will be updated at least once a week, usually on Sundays. Each time I will upload one task, leaving a whole week for you to finish.
 ## Tasks

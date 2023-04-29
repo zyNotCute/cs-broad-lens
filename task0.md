@@ -1,12 +1,24 @@
 # Task 0: Toolchains
+
 ## Outline
+
 In this task, we try to build a half-automated note management system, with the ability of automatically deploying itself to your personal website.  
 Afterwards, all your study notes can be placed here.
-## Prerequisites & Resources
-[Markdown](https://www.markdownguide.org/basic-syntax/)   
-[Git (Chapter 2 ~ 3)](https://git-scm.com/book/zh/v2)  
-[Linux (Chapter 3 ~ 6)](https://101.lug.ustc.edu.cn/)  
+
+## Prerequisites & Resources  
+
+- [Markdown](https://www.markdownguide.org/basic-syntax/)   
+- [Git (Chapter 2 ~ 3)](https://git-scm.com/book/zh/v2)  
+- [Linux (Chapter 3 ~ 6)](https://101.lug.ustc.edu.cn/)  
+
+After reading these materials, you can ask yourself the following questions to get prepared. If you get stucked, just turn to AIs for help.
+
+- What is the difference between a relative path and an absolute path?
+- What is the file system like on Linux?
+- What is the difference between a text file and a binary file? For each, how to open it?
+
 ## Procedure & Criteria
+
 1. Install hexo. (15 pts)
 > keywords: package manager, npm
 2. Write some posts and transform them into static webpages. (15 pts)
