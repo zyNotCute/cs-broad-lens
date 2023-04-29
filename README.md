@@ -21,4 +21,5 @@ All the tasks should be done on Linux. (If you are a Windows user, try WSL)
 ## Maintainance
 This repo will be updated at least once a week, usually on Sundays. Each time I will upload one task, leaving a whole week for you to finish.
 ## Tasks
-- [Task 0: Toolchains](./task0.md)
+- [Task 0: Toolchains](./task0/task0.md)
+- [Task 1: Networks](./task1/task1.md)
