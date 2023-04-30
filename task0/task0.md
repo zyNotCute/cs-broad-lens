@@ -13,7 +13,8 @@ Afterwards, all your study notes can be placed here.
 
 After reading these materials, you can ask yourself the following questions to get prepared. If you get stucked, just turn to AIs for help.
 
-- What is the difference between a relative path and an absolute path?
+- How to use a photo as a hyperlink in Markdown?
+- What is a relative path? What about an absolute path?
 - What is the file system like on Linux?
 - What is the difference between a text file and a binary file? For each, how to open it?
 
