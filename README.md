@@ -1,12 +1,8 @@
 # CS Broad Lens
 
-## Outline
+## Outline & Purpose
 
-As the repo name says, here offers a set of labs targeting complete beginners who expect an overall glance at CS. If you follow the instructions and finish the specially-designed tasks, you may find yourself gradually stepping into the temple of computer science. 
-
-## Purpose
-
-I came up with the idea of setting up such labs when a classmate of mine (currently in AIA, HUST) asked me for an approach to learn CS from zero. I believe many (including me) have struggled on the path of CS as a beginner, so it might be better for me to share some resources with you.
+As the repo name says, here offers a set of labs targeting complete beginners who expect an overall glance at CS. I came up with the idea of setting up such labs when a classmate of mine (currently in AIA, HUST) asked me for an approach to learn CS from zero. As I have seen, many students majoring in CS-related 
 
 ## Philosophy
 
@@ -36,7 +32,7 @@ This repo will be updated at least once a week, usually on Sundays. Each time I 
 
 - Set up a [VPN](ikuuu.eu).
 - Sign up for ChatGPT. Alternatively, you can install Edge  Dev to use New Bing.
-- Install [WSL]. (If you're a Linux user, just ignore) It's highly recommended to finish all the tasks in a Linux environment.
+- Install [WSL](https://learn.microsoft.com/en-us/windows/wsl/). (If you're a Linux user, just ignore) It's highly recommended to finish all the tasks in a Linux environment.
 
 ## Tasks
 - [Task 0: Toolchains](./task0/task0.md)
