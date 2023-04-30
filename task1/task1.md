@@ -8,6 +8,9 @@ In this task, we try to explore how the Internet works. There are a few subtasks
 
 - Learn how to use Libgen for free e-books. Download the book "Computer Networks - A Top-Down Approach". Read the chapter "Application Layer" as well as the ipv4 part in the chapter "Network Layer".  
 - [Python](https://docs.python.org/3/tutorial/index.html) (To learn a new language, I recommend skimming through the basic syntax first, then just use it! If you encounter any obstacles in your work, go back and only read what you need.)
+- [URL](https://en.wikipedia.org/wiki/URL)
+- [URL encoding](https://en.wikipedia.org/wiki/URL_encoding)
+- [base64](https://en.wikipedia.org/wiki/Base64)
 
 ## Procedure & Criteria
 
@@ -20,7 +23,7 @@ For the following subtasks, create a markdown file, and write your answer into i
 
 ### Coding Part
 
-1. Write a program to test whether you're in a VPN environment. (15 pts)
+1. Write a program to test whether you're in a VPN environment. (10 pts)
 ```bash
 $ vpn-detect
 True
@@ -30,3 +33,4 @@ True
 $ python3 vpn-detect.py
 False
 ```
+> Tips: Do you know your public ip? There're multiple ways to get an answer.
