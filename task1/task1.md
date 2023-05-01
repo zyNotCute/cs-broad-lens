@@ -11,6 +11,12 @@ In this task, we try to explore how the Internet works. There are a few subtasks
 - [URL](https://en.wikipedia.org/wiki/URL)
 - [URL encoding](https://en.wikipedia.org/wiki/URL_encoding)
 - [base64](https://en.wikipedia.org/wiki/Base64)
+Upon Finishing, try ask yourself a few questions to get prepared.
+- What is your private ip and public ip?
+- Try an iterative DNS query, what is the ip of the root server, the tld server, and the authoritative server respectively?
+- How to capture packets?
+- How VPN works?
+- How to guess the way how some text is encoded?
 
 ## Procedure & Criteria
 
