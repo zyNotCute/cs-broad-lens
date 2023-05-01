@@ -11,14 +11,15 @@ In this task, we try to explore how the Internet works. There are a few subtasks
 - [URL](https://en.wikipedia.org/wiki/URL)
 - [URL encoding](https://en.wikipedia.org/wiki/URL_encoding)
 - [base64](https://en.wikipedia.org/wiki/Base64)
+- [Docker](https://docker-curriculum.com/)
 
 Upon Finishing, try ask yourself a few questions to get prepared.  
 
 - What is your private ip and public ip?
+- What is 0.0.0.0, 127.0.0.1, 192.168.1.1, 255.255.255.255, 192.168.1.255?
 - Try an iterative DNS query, what is the ip of the root server, the tld server, and the authoritative server respectively?
 - How to capture packets?
 - How VPN works?
-- How to guess the way how some text is encoded?
 
 ## Procedure & Criteria
 
@@ -27,7 +28,12 @@ Upon Finishing, try ask yourself a few questions to get prepared.
 For the following subtasks, create a markdown file, and write your answer into it. DO NOT only give the final answer without any explanations or detailed steps.
 
 1. What is the ip address of hust.edu.cn? (5 pts)
-2. Here is a [mail message](./attachment0), what is the sender's ip address? (5 pts)
+2. [Here](./attachment0) is a mail message, what is the sender's ip address? (5 pts)
+3. I set up a tcp server listening on port 3000. It holds a secret pincode, a.k.a. a four-digit number. You can send any messages to it, and it only responds 'y' when the message you send is the right pincode. Otherwise, it responds 'n'.  
+You can pull the docker image of the server [here](https://hub.docker.com/repository/docker/lesliejiang/pincode/general), and run it on your local machine.  
+Your goal is to find the right pincode. (10 pts)
+4. I set up a http server (That is to say, you can see it in your browser) listening on port 5000. If you visit it directly, you'll get blocked. Try escaping its limitations. Likewise, [here](https://hub.docker.com/repository/docker/lesliejiang/header/general) is the docker image.
+Your goal is to get the original content of that web page. (10 pts)
 
 ### Coding Part
 
