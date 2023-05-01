@@ -17,7 +17,7 @@ Upon Finishing, try ask yourself a few questions to get prepared.
 
 - What is 0.0.0.0, 127.0.0.1, 192.168.1.1, 255.255.255.255, 192.168.1.255?
 - How to capture packets?
-- How VPN works?
+- How does a VPN work?
 
 ## Procedure & Criteria
 
@@ -33,7 +33,7 @@ For the following subtasks, create a markdown file, and write your answer into i
 
 4. [Here](./attachment0) is a mail message, what is the sender's ip address? (5 pts)
 
-5. Try to make an iterative DNS query, what is the ip of the root server, the tld server, and the authoritative server respectively? (5 pts)
+5. Try to trace an iterative DNS query, what is the ip of the root server, the tld server, and the authoritative server respectively? (5 pts)
 
 6. There is a tcp server listening on port 3000. It holds a secret pincode, a.k.a. a four-digit number. You can send any messages to it, and it only responds 'y' when the message you send is the right pincode. Otherwise, it responds 'n'.  
 You can pull the docker image of the server [here](https://hub.docker.com/repository/docker/lesliejiang/pincode/general), and run it on your local machine.  
