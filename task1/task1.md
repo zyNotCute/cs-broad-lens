@@ -37,7 +37,7 @@ For the following subtasks, create a markdown file, and write your answer into i
 You can pull the docker image of the server [here](https://hub.docker.com/repository/docker/lesliejiang/pincode/general), and run it on your local machine.  
 Your goal is to find the right pincode. (10 pts)
 
-6. I set up a http server (That is to say, you can visit it in your browser) listening on port 5000. If you visit it directly, you'll get blocked. Try escaping its limitations. After that, you'll see a string like "flag{ xxxx }", which we call a flag. Likewise, [here](https://hub.docker.com/repository/docker/lesliejiang/header/general) is the docker image.  
+6. I set up a http server (That is to say, you can visit it in your browser) listening on port 5000. If you visit it directly, you'll get blocked. Try bypassing its limitations. After that, you'll see a string like "flag{ xxxx }", which we call a flag. Likewise, [here](https://hub.docker.com/repository/docker/lesliejiang/header/general) is the docker image.  
 Your goal is to get the flag. (10 pts)
 
 7. I set up a http server listening on port 5000. Try to bypass the login, then you'll see the flag. The docker image is [here](https://hub.docker.com/repository/docker/lesliejiang/cookies/general).  
