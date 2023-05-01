@@ -45,3 +45,5 @@ You'll get a list of lines which contains the specific string from all your post
 > keywords: system service
 - Deploy daily at a fixed time.
 > keywords: crontab
+
+> Tips: Well, you can also boot your vpn at startup XD
