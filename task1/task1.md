@@ -60,3 +60,8 @@ $ python3 vpn-detect.py
 False
 ```
 > Tips: Do you know your public ip? There're multiple ways to get an answer.
+
+2. Implement a BitTorrent client.  
+In fact, there is already a half-done one. See this [repo](https://github.com/eliasson/pieces/) as well as the relevant [article](https://markuseliasson.se/article/bittorrent-in-python/).  
+After reading through the article, you'll find that seeding is not yet implemented. So what you need to do is quite simple: implement seeding (which means uploading pieces). (25 pts)
+> Tips: Don't start from zero. Just clone the repo and build your codebase upon it. Also, since it is quite a lot of work, let AIs generate codes for you, especially Copilot and Codeium.
