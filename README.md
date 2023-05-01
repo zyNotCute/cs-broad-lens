@@ -2,9 +2,13 @@
 
 ## Outline & Purpose
 
-As the repo name says, here offers a set of labs targeting complete beginners who expect an overall glance at CS. I came up with the idea of setting up such labs when a classmate of mine (currently in AIA, HUST) asked me for an approach to learn CS from zero. As I have seen, many students majoring in CS-related 
+As the repo name says, here offers a set of labs targeting complete beginners who expect an overall glance at CS. I came up with the idea of setting up such labs when a classmate of mine (currently in AIA, HUST) asked me for an approach to learn CS from zero. As I have seen, many students in CS-related major lack the experience of self-teaching as well as the experience of hands-on practice. Therefore, it is of necessity to share these resourses with you. It is not about the knowledge it self, but is about how to learn and how to solve problems, in a general way. 
 
 ## Philosophy
+
+### It's nothing abnormal of you to know nothing.
+
+The tasks are NOT mean to test how much you have learned from the given resources. Instead, the resources given work only as a reference for your tasks. You're supposed to feel confused when doing the tasks. If so, turn to the Internet for help.
 
 ### Make it. No matter how.
 
@@ -31,7 +35,7 @@ This repo will be updated at least once a week, usually on Sundays. Each time I 
 *These steps are EXTREMELY important, don't move on without finishing them.*
 
 - Set up a [VPN](ikuuu.eu).
-- Sign up for ChatGPT. Alternatively, you can install Edge  Dev to use New Bing.
+- Sign up for ChatGPT. Alternatively, you can install Edge Dev to use New Bing.
 - Install [WSL](https://learn.microsoft.com/en-us/windows/wsl/). (If you're a Linux user, just ignore) It's highly recommended to finish all the tasks in a Linux environment.
 
 ## Tasks
