@@ -49,7 +49,7 @@ Your goal is to get the flag. (20 pts)
 
 ### Coding Part
 
-1. Write a program to test whether you're in a VPN environment. (10 pts)
+1. Write a program to test whether you're in a VPN environment. (You can test whether it is correct by switching on and off your vpn and see the output) (10 pts)
 ```bash
 $ vpn-detect
 True
