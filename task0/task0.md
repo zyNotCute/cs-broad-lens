@@ -16,7 +16,7 @@ After reading these materials, you can ask yourself the following questions to g
 - How to use a photo as a hyperlink in Markdown?
 - What is a relative path? What about an absolute path?
 - What is the file system like on Linux?
-- What is the difference between a text file and a binary file? For each, how to open it?
+- What is the difference between a text file and a binary file?
 
 ## Procedure & Criteria
 
